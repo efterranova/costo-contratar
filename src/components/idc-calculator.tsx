@@ -143,9 +143,9 @@ export function IDCCalculator() {
           <Image
             src="/erecruit-white.png"
             alt="erecruit"
-            width={150}
-            height={40}
-            className="h-8 w-auto mb-8 stagger-1"
+            width={200}
+            height={54}
+            className="h-12 w-auto mb-8 stagger-1"
           />
 
           <h1 className="stagger-2 text-[1.75rem] sm:text-[2.25rem] lg:text-[2.5rem] font-extrabold leading-[1.1] tracking-tight mb-4">
