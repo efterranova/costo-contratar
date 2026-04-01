@@ -11,6 +11,8 @@ interface GeneratePDFParams {
   userName: string;
   userEmail: string;
   generatedAt: string;
+  jobTitle?: string;
+  aiAnalysis?: string;
 }
 
 export async function generatePDFBuffer(params: GeneratePDFParams): Promise<Buffer> {

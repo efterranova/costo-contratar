@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import {
@@ -19,6 +19,8 @@ import { AIInterpretation } from './ai-interpretation';
 import { LeadGate } from './lead-gate';
 import { ComputingOverlay } from './computing-overlay';
 
+type Step = 'calculator' | 'computing' | 'lead-form' | 'report';
+
 export function IDCCalculator() {
   const [jobTitle, setJobTitle] = useState('');
   const [country, setCountry] = useState<Country | ''>('');
@@ -26,18 +28,14 @@ export function IDCCalculator() {
   const [seniority, setSeniority] = useState<SeniorityLevel | ''>('');
   const [result, setResult] = useState<IDCResult | null>(null);
   const [input, setInput] = useState<ScoringInput | null>(null);
-  const [unlocked, setUnlocked] = useState(false);
-  const [computing, setComputing] = useState(false);
+  const [step, setStep] = useState<Step>('calculator');
   const [aiText, setAiText] = useState('');
   const [aiLoading, setAiLoading] = useState(false);
-  const [aiError, setAiError] = useState(false);
   const resultRef = useRef<HTMLDivElement>(null);
 
   const fetchAI = useCallback((scoringInput: ScoringInput) => {
     setAiLoading(true);
-    setAiError(false);
     setAiText('');
-
     fetch('/api/interpret', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -45,33 +43,35 @@ export function IDCCalculator() {
     })
       .then(res => { if (!res.ok) throw new Error(); return res.json(); })
       .then(data => setAiText(data.interpretation || ''))
-      .catch(() => setAiError(true))
+      .catch(() => {})
       .finally(() => setAiLoading(false));
   }, []);
 
   function handleCalculate() {
     if (!country || !role || !seniority) return;
     const scoringInput: ScoringInput = { country, role, seniority, jobTitle: jobTitle.trim() || undefined };
-
-    // Show computing overlay
-    setComputing(true);
-    setUnlocked(false);
-
-    // Calculate IDC score (instant)
     const idcResult = calculateIDC(scoringInput);
     setInput(scoringInput);
     setResult(idcResult);
+    setStep('computing');
 
-    // Start AI fetch in background
+    // Start AI in background
     fetchAI(scoringInput);
 
-    // Show overlay for 2.5s then reveal results
+    // Show computing for 2.5s then show lead form
     setTimeout(() => {
-      setComputing(false);
+      setStep('lead-form');
       setTimeout(() => {
         resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 100);
     }, 2500);
+  }
+
+  function handleUnlock() {
+    setStep('report');
+    setTimeout(() => {
+      resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
   }
 
   const isReady = country && role && seniority;
@@ -79,7 +79,7 @@ export function IDCCalculator() {
   return (
     <section id="calculadora" className="container mx-auto px-4 md:px-6 py-8 md:py-12">
       <div className="max-w-2xl mx-auto">
-        {/* Calculator */}
+        {/* Calculator — always visible */}
         <div className="bg-white rounded-2xl border border-border shadow-sm p-5 md:p-7 mb-8">
           <div className="mb-4">
             <label className="block text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">
@@ -92,7 +92,6 @@ export function IDCCalculator() {
               className="h-11 rounded-lg bg-[var(--color-brand-50)] border-brand-100 text-sm"
             />
           </div>
-
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
             <div>
               <label className="block text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">Pais</label>
@@ -134,14 +133,13 @@ export function IDCCalculator() {
               </Select>
             </div>
           </div>
-
           <Button
             onClick={handleCalculate}
-            disabled={!isReady || computing}
+            disabled={!isReady || step === 'computing'}
             className="w-full h-11 rounded-lg text-sm font-semibold bg-[var(--color-brand)] hover:bg-[var(--color-brand-dark)] transition-colors disabled:opacity-30"
             size="lg"
           >
-            {computing ? (
+            {step === 'computing' ? (
               <span className="flex items-center gap-2">
                 <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
@@ -149,45 +147,51 @@ export function IDCCalculator() {
                 </svg>
                 Analizando...
               </span>
-            ) : (
-              'Calcular dificultad'
-            )}
+            ) : 'Calcular dificultad'}
           </Button>
         </div>
 
-        {/* Computing overlay */}
-        {computing && <ComputingOverlay />}
+        {/* Step: Computing overlay */}
+        {step === 'computing' && <ComputingOverlay />}
 
-        {/* Results — all blurred behind lead gate until unlocked */}
-        {result && input && !computing && (
+        {/* Step: Lead form — blurred preview + form */}
+        {step === 'lead-form' && result && input && (
           <div ref={resultRef} className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-            {!unlocked ? (
-              /* Everything blurred + lead form overlay */
-              <div className="relative">
-                {/* Blurred content preview */}
-                <div className="blur-[6px] select-none pointer-events-none opacity-50 space-y-6">
-                  <ScoreDisplay result={result} country={input.country} role={input.role} seniority={input.seniority} jobTitle={input.jobTitle} />
-                  <VariableBreakdown variables={result.variables} />
-                  {!aiLoading && !aiError && aiText && (
-                    <AIInterpretation text={aiText} />
-                  )}
-                </div>
-
-                {/* Lead form overlay */}
-                <div className="absolute inset-0 flex items-start justify-center pt-16 md:pt-24">
-                  <LeadGate result={result} input={input} onUnlock={() => setUnlocked(true)} />
-                </div>
-              </div>
-            ) : (
-              /* Unlocked — show everything */
-              <div className="space-y-6 animate-in fade-in duration-500">
+            <div className="relative">
+              <div className="blur-[6px] select-none pointer-events-none opacity-40 space-y-6">
                 <ScoreDisplay result={result} country={input.country} role={input.role} seniority={input.seniority} jobTitle={input.jobTitle} />
                 <VariableBreakdown variables={result.variables} />
-                {!aiError && (
-                  <AIInterpretation text={aiText} loading={aiLoading} />
-                )}
               </div>
-            )}
+              <div className="absolute inset-0 flex items-start justify-center pt-12 md:pt-20">
+                <LeadGate result={result} input={input} onUnlock={handleUnlock} aiText={aiText} />
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Step: Full report — replaces everything */}
+        {step === 'report' && result && input && (
+          <div ref={resultRef} className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+            <ScoreDisplay result={result} country={input.country} role={input.role} seniority={input.seniority} jobTitle={input.jobTitle} />
+            <VariableBreakdown variables={result.variables} />
+            <AIInterpretation text={aiText} loading={aiLoading} />
+            {/* CTA */}
+            <div className="bg-white rounded-2xl border border-border shadow-sm p-5 md:p-6 text-center">
+              <p className="text-[14px] text-foreground mb-3">
+                Si necesitas publicar esta vacante o recibir apoyo en tu proceso de contratacion:
+              </p>
+              <a
+                href="https://erecruit.ca/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 h-10 px-6 rounded-lg text-sm font-semibold bg-[var(--color-brand)] text-white hover:bg-[var(--color-brand-dark)] transition-colors"
+              >
+                Conoce erecruit
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
           </div>
         )}
       </div>

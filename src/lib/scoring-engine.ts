@@ -78,21 +78,21 @@ function getServiceRoute(level: IDCResult['level']): IDCResult['serviceRoute'] {
   switch (level) {
     case 'baja':
       return {
-        name: 'Plan Básico',
-        description: 'Planes de publicación mensuales con visibilidad estándar',
-        priceRange: 'USD 50–150/mes',
+        name: 'Publicacion de vacante',
+        description: 'Publica tu vacante y recibe candidatos calificados',
+        priceRange: '',
       };
     case 'media':
       return {
-        name: 'Plan Premium',
-        description: 'Plataforma con analítica avanzada y visibilidad destacada',
-        priceRange: 'USD 250/mes',
+        name: 'Publicacion con apoyo',
+        description: 'Publica con visibilidad destacada y apoyo en filtrado',
+        priceRange: '',
       };
     case 'alta':
       return {
-        name: 'Búsqueda Ejecutiva',
-        description: 'Servicio asistido con búsqueda activa y evaluación especializada',
-        priceRange: 'USD 500/mes',
+        name: 'Busqueda asistida',
+        description: 'Recibe apoyo especializado en la busqueda y evaluacion de candidatos',
+        priceRange: '',
       };
   }
 }

@@ -9,9 +9,10 @@ interface LeadGateProps {
   result: IDCResult;
   input: ScoringInput;
   onUnlock: () => void;
+  aiText?: string;
 }
 
-export function LeadGate({ result, input, onUnlock }: LeadGateProps) {
+export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [company, setCompany] = useState('');
@@ -46,7 +47,7 @@ export function LeadGate({ result, input, onUnlock }: LeadGateProps) {
       const pdfRes = await fetch('/api/report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ country: input.country, role: input.role, seniority: input.seniority, name, email }),
+        body: JSON.stringify({ country: input.country, role: input.role, seniority: input.seniority, name, email, jobTitle: input.jobTitle, aiAnalysis: aiText }),
       });
       if (pdfRes.ok) {
         const blob = await pdfRes.blob();

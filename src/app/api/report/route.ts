@@ -6,10 +6,14 @@ import { COUNTRIES, ROLES, SENIORITY_LEVELS } from '@/lib/constants';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { country, role, seniority, name, email } = body as ScoringInput & { name: string; email: string };
+    const { country, role, seniority, name, email, jobTitle, aiAnalysis } = body as ScoringInput & {
+      name: string;
+      email: string;
+      aiAnalysis?: string;
+    };
 
     if (!country || !role || !seniority) {
-      return NextResponse.json({ error: 'Faltan parámetros' }, { status: 400 });
+      return NextResponse.json({ error: 'Faltan parametros' }, { status: 400 });
     }
 
     const result = calculateIDC({ country, role, seniority });
@@ -26,6 +30,8 @@ export async function POST(request: Request) {
       seniorityLabel,
       userName: name || 'Usuario',
       userEmail: email || '',
+      jobTitle: jobTitle || undefined,
+      aiAnalysis: aiAnalysis || undefined,
       generatedAt: new Date().toLocaleDateString('es-ES', {
         year: 'numeric',
         month: 'long',
