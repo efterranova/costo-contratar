@@ -29,9 +29,10 @@ interface ScoreDisplayProps {
   country?: string;
   role?: string;
   seniority?: string;
+  jobTitle?: string;
 }
 
-export function ScoreDisplay({ result, country, role, seniority }: ScoreDisplayProps) {
+export function ScoreDisplay({ result, country, role, seniority, jobTitle }: ScoreDisplayProps) {
   const config = levelConfig[result.level];
   const percentage = (result.roundedScore / 10) * 100;
   const circumference = 2 * Math.PI * 40;
@@ -53,11 +54,10 @@ export function ScoreDisplay({ result, country, role, seniority }: ScoreDisplayP
             Dificultad {config.label}
           </span>
         </div>
-        {countryLabel && (
-          <span className="text-[12px] text-muted-foreground">
-            {roleLabel} &middot; {seniorityLabel} &middot; {countryLabel}
-          </span>
-        )}
+        <span className="text-[12px] text-muted-foreground">
+          {jobTitle ? <>{jobTitle} &middot; </> : null}
+          {roleLabel} &middot; {seniorityLabel} &middot; {countryLabel}
+        </span>
       </div>
 
       {/* Score body */}

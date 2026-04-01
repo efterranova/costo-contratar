@@ -2,6 +2,7 @@
 
 import { useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import {
   Select,
   SelectContent,
@@ -18,6 +19,7 @@ import { AIInterpretation } from './ai-interpretation';
 import { LeadGate } from './lead-gate';
 
 export function IDCCalculator() {
+  const [jobTitle, setJobTitle] = useState('');
   const [country, setCountry] = useState<Country | ''>('');
   const [role, setRole] = useState<RoleCategory | ''>('');
   const [seniority, setSeniority] = useState<SeniorityLevel | ''>('');
@@ -28,7 +30,7 @@ export function IDCCalculator() {
 
   function handleCalculate() {
     if (!country || !role || !seniority) return;
-    const scoringInput: ScoringInput = { country, role, seniority };
+    const scoringInput: ScoringInput = { country, role, seniority, jobTitle: jobTitle.trim() || undefined };
     const idcResult = calculateIDC(scoringInput);
     setInput(scoringInput);
     setResult(idcResult);
@@ -45,6 +47,20 @@ export function IDCCalculator() {
       <div className="max-w-2xl mx-auto">
         {/* Calculator */}
         <div className="bg-white rounded-2xl border border-border shadow-sm p-5 md:p-7 mb-8">
+          {/* Job title — prominent field */}
+          <div className="mb-4">
+            <label className="block text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">
+              Puesto que buscas cubrir
+            </label>
+            <Input
+              value={jobTitle}
+              onChange={(e) => setJobTitle(e.target.value)}
+              placeholder="Ej: Desarrollador Backend Python, Gerente de Ventas, Contador Senior..."
+              className="h-11 rounded-lg bg-[var(--color-brand-50)] border-brand-100 text-sm"
+            />
+          </div>
+
+          {/* Selectors row */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
             <div>
               <label className="block text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">Pais</label>
@@ -60,7 +76,7 @@ export function IDCCalculator() {
               </Select>
             </div>
             <div>
-              <label className="block text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">Rol</label>
+              <label className="block text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">Categoria</label>
               <Select value={role} onValueChange={(v) => setRole(v as RoleCategory)}>
                 <SelectTrigger className="h-10 rounded-lg bg-[var(--color-brand-50)] border-brand-100 text-sm">
                   <SelectValue placeholder="Seleccionar" />
@@ -100,7 +116,7 @@ export function IDCCalculator() {
         {/* Results */}
         {result && input && (
           <div ref={resultRef} className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <ScoreDisplay result={result} country={input.country} role={input.role} seniority={input.seniority} />
+            <ScoreDisplay result={result} country={input.country} role={input.role} seniority={input.seniority} jobTitle={input.jobTitle} />
 
             {!unlocked && (
               <LeadGate result={result} input={input} onUnlock={() => setUnlocked(true)} />

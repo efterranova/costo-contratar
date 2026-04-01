@@ -6,6 +6,7 @@ export interface ScoringInput {
   country: Country;
   role: RoleCategory;
   seniority: SeniorityLevel;
+  jobTitle?: string;
 }
 
 export interface VariableScore {

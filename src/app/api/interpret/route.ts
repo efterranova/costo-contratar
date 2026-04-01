@@ -6,10 +6,10 @@ import type { ScoringInput } from '@/lib/types';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { country, role, seniority } = body as ScoringInput;
+    const { country, role, seniority, jobTitle } = body as ScoringInput;
 
     if (!country || !role || !seniority) {
-      return NextResponse.json({ error: 'Faltan parámetros' }, { status: 400 });
+      return NextResponse.json({ error: 'Faltan parametros' }, { status: 400 });
     }
 
     const apiKey = process.env.OPENROUTER_API_KEY;
@@ -26,19 +26,25 @@ export async function POST(request: Request) {
       .map(v => `- ${v.name}: ${v.score}/10 (${v.interpretation})`)
       .join('\n');
 
-    const prompt = `Eres un consultor experto en reclutamiento y mercado laboral en Latinoamérica. Un empleador quiere contratar un perfil de "${roleLabel}" con nivel "${seniorityLabel}" en ${countryLabel}.
+    const jobContext = jobTitle
+      ? `El puesto especifico que busca cubrir es: "${jobTitle}". Usa este detalle para dar recomendaciones MUY especificas a ese puesto. Por ejemplo, si busca un "Desarrollador Python Senior", menciona el mercado de Python, la competencia por ese stack, si hay mucha demanda de ese lenguaje vs otros, etc. Si busca un "Gerente de Ventas", habla de la competencia por perfiles comerciales con liderazgo. Haz que el analisis se sienta UNICO para ese puesto.`
+      : `No especifico un puesto particular, solo la categoria general "${roleLabel}". Da recomendaciones para esa categoria en general.`;
 
-El Índice de Dificultad de Contratación (IDC) arrojó un score de ${result.roundedScore}/10 (dificultad ${result.level}).
+    const prompt = `Eres un consultor experto en reclutamiento y mercado laboral en Latinoamerica. Un empleador quiere contratar un perfil de "${roleLabel}" con nivel "${seniorityLabel}" en ${countryLabel}.
+
+${jobContext}
+
+El Indice de Dificultad de Contratacion arrojo un score de ${result.roundedScore}/10 (dificultad ${result.level}).
 
 Desglose de variables:
 ${variablesSummary}
 
-Genera una interpretación personalizada en 3-4 párrafos cortos (máximo 200 palabras total) que:
-1. Explique en lenguaje simple QUÉ SIGNIFICA este score para el empleador en su contexto específico
-2. Identifique cuáles son los factores que más pesan y POR QUÉ afectan a este perfil en este país
-3. Dé 2-3 recomendaciones prácticas y accionables para mejorar sus probabilidades de contratar
+Genera una interpretacion personalizada en 3-4 parrafos cortos (maximo 250 palabras total) que:
+1. Explique en lenguaje simple QUE SIGNIFICA este score para el empleador, mencionando el puesto especifico si lo proporciono
+2. Identifique cuales son los factores que mas pesan y POR QUE afectan a este perfil en este pais
+3. De 2-3 recomendaciones practicas y accionables especificas para ESE puesto (no genericas)
 
-Escribe en español, tono profesional pero cercano. No uses jerga técnica. No menciones el nombre "IDC" ni las variables por código (V1, V2, etc.). Habla directo al empleador usando "usted" o "tu empresa".`;
+Escribe en espanol, tono profesional pero cercano. No uses jerga tecnica. No menciones "IDC" ni las variables por codigo (V1, V2). Habla directo al empleador usando "tu empresa".`;
 
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
@@ -50,10 +56,8 @@ Escribe en español, tono profesional pero cercano. No uses jerga técnica. No m
       },
       body: JSON.stringify({
         model: 'google/gemini-2.0-flash-001',
-        messages: [
-          { role: 'user', content: prompt },
-        ],
-        max_tokens: 500,
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 600,
         temperature: 0.7,
       }),
     });
@@ -61,7 +65,7 @@ Escribe en español, tono profesional pero cercano. No uses jerga técnica. No m
     if (!response.ok) {
       const err = await response.json().catch(() => ({}));
       console.error('OpenRouter error:', response.status, err);
-      return NextResponse.json({ error: 'Error al generar interpretación' }, { status: 500 });
+      return NextResponse.json({ error: 'Error al generar interpretacion' }, { status: 500 });
     }
 
     const data = await response.json();

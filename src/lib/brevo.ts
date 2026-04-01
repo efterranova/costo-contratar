@@ -26,6 +26,7 @@ export async function createBrevoContact(lead: LeadFormData): Promise<{ success:
       IDC_COUNTRY: countryLabel,
       IDC_ROLE: roleLabel,
       IDC_SENIORITY: seniorityLabel,
+      IDC_JOB_TITLE: (lead as unknown as Record<string, string>).jobTitle || '',
       IDC_SCORE: lead.idcScore,
       IDC_LEVEL: lead.idcLevel,
       IDC_SOURCE: 'IDC Calculator',

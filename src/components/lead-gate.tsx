@@ -32,6 +32,7 @@ export function LeadGate({ result, input, onUnlock }: LeadGateProps) {
           name, email, company,
           phone: phone || undefined,
           country: input.country, role: input.role, seniority: input.seniority,
+          jobTitle: input.jobTitle || '',
           idcScore: result.roundedScore, idcLevel: result.level,
         }),
       });
