@@ -82,7 +82,7 @@ export function ReportDocument({ result, countryLabel, roleLabel, seniorityLabel
     <Document>
       {/* Page 1: Cover */}
       <Page size="A4" style={s.cover}>
-        <Image src={logoUrl} style={{ width: 140, height: 38, marginBottom: 30 }} />
+        <Image src={logoUrl} style={{ width: 130, height: 35, objectFit: 'contain', marginBottom: 30 }} />
         <Text style={s.coverTitle}>Indice de Dificultad{'\n'}de Contratacion</Text>
         <Text style={s.coverSub}>
           {jobTitle ? `${jobTitle}\n` : ''}{roleLabel} — {seniorityLabel}{'\n'}{countryLabel}
@@ -99,7 +99,7 @@ export function ReportDocument({ result, countryLabel, roleLabel, seniorityLabel
       {/* Page 2: Score + Variables */}
       <Page size="A4" style={s.page}>
         <View style={s.hdr}>
-          <Image src={logoUrl} style={{ width: 90, height: 24 }} />
+          <Image src={logoUrl} style={{ width: 95, height: 26, objectFit: 'contain' }} />
           <Text style={s.hdrDate}>{generatedAt}</Text>
         </View>
 
@@ -134,7 +134,7 @@ export function ReportDocument({ result, countryLabel, roleLabel, seniorityLabel
       {/* Page 3: AI Analysis + CTA */}
       <Page size="A4" style={s.page}>
         <View style={s.hdr}>
-          <Image src={logoUrl} style={{ width: 90, height: 24 }} />
+          <Image src={logoUrl} style={{ width: 95, height: 26, objectFit: 'contain' }} />
           <Text style={s.hdrDate}>Analisis y Recomendaciones</Text>
         </View>
 

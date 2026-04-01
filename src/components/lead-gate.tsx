@@ -3,7 +3,9 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import Image from 'next/image';
 import type { IDCResult, ScoringInput } from '@/lib/types';
+import { COUNTRIES, ROLES, SENIORITY_LEVELS } from '@/lib/constants';
 
 interface LeadGateProps {
   result: IDCResult;
@@ -12,6 +14,9 @@ interface LeadGateProps {
   aiText?: string;
 }
 
+const levelLabel = { baja: 'Baja', media: 'Media', alta: 'Alta' };
+const levelColor = { baja: '#0D9373', media: '#D97706', alta: '#DC2626' };
+
 export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -19,6 +24,10 @@ export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
   const [phone, setPhone] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+
+  const countryLabel = COUNTRIES.find(c => c.value === input.country)?.label || '';
+  const roleLabel = ROLES.find(r => r.value === input.role)?.label || '';
+  const seniorityLabel = SENIORITY_LEVELS.find(s => s.value === input.seniority)?.label || '';
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -47,7 +56,10 @@ export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
       const pdfRes = await fetch('/api/report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ country: input.country, role: input.role, seniority: input.seniority, name, email, jobTitle: input.jobTitle, aiAnalysis: aiText }),
+        body: JSON.stringify({
+          country: input.country, role: input.role, seniority: input.seniority,
+          name, email, jobTitle: input.jobTitle, aiAnalysis: aiText,
+        }),
       });
       if (pdfRes.ok) {
         const blob = await pdfRes.blob();
@@ -70,8 +82,26 @@ export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
   }
 
   return (
-    <div className="w-full max-w-md mx-auto">
-      <div className="bg-white rounded-2xl border border-border shadow-xl p-6 md:p-8">
+    <div className="bg-white rounded-2xl border border-border shadow-sm overflow-hidden">
+      {/* Score preview — compact summary of what was calculated */}
+      <div className="px-5 py-4 border-b border-border/60 flex items-center justify-between">
+        <div>
+          <p className="text-[11px] text-muted-foreground uppercase tracking-wider font-semibold mb-0.5">Tu reporte esta listo</p>
+          <p className="text-[12px] text-muted-foreground">
+            {input.jobTitle ? <>{input.jobTitle} &middot; </> : null}
+            {roleLabel} &middot; {seniorityLabel} &middot; {countryLabel}
+          </p>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-2xl font-extrabold tabular-nums" style={{ color: levelColor[result.level] }}>
+            {result.roundedScore}
+          </span>
+          <span className="text-[11px] text-muted-foreground">/10</span>
+        </div>
+      </div>
+
+      {/* Form */}
+      <div className="p-5 md:p-6">
         <div className="text-center mb-5">
           <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-brand-50)] mb-3">
             <svg className="w-5 h-5 text-[var(--color-brand)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,12 +111,12 @@ export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
           <h3 className="font-bold text-[17px] mb-1">
             A que correo te enviamos el reporte?
           </h3>
-          <p className="text-[13px] text-muted-foreground">
-            Recibe el analisis completo con el desglose de variables, diagnostico por IA y un PDF descargable.
+          <p className="text-[13px] text-muted-foreground max-w-sm mx-auto">
+            Recibiras el analisis completo con desglose de variables, diagnostico por IA y un PDF descargable.
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-3">
+        <form onSubmit={handleSubmit} className="max-w-sm mx-auto space-y-3">
           <Input
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -117,9 +147,7 @@ export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
             className="h-10 rounded-lg text-sm"
           />
 
-          {error && (
-            <p className="text-[12px] text-red-600">{error}</p>
-          )}
+          {error && <p className="text-[12px] text-red-600">{error}</p>}
 
           <Button
             type="submit"
@@ -134,9 +162,7 @@ export function LeadGate({ result, input, onUnlock, aiText }: LeadGateProps) {
                 </svg>
                 Preparando reporte...
               </span>
-            ) : (
-              'Ver mi reporte completo'
-            )}
+            ) : 'Ver mi reporte completo'}
           </Button>
 
           <p className="text-[10px] text-center text-muted-foreground/50">
