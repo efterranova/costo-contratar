@@ -69,76 +69,55 @@ export function LeadGate({ result, input, onUnlock }: LeadGateProps) {
   }
 
   return (
-    <div>
-      {/* Blurred preview */}
-      <div className="relative bg-white rounded-2xl border border-border shadow-sm p-5 mb-3 overflow-hidden">
-        <div className="blur-[5px] select-none pointer-events-none opacity-50">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="flex items-center gap-3 py-3 border-b border-border/30 last:border-0">
-              <div className="flex-1">
-                <div className="h-3 bg-muted rounded w-44 mb-1.5" />
-                <div className="h-2 bg-muted/60 rounded w-64" />
-              </div>
-              <div className="text-xl font-bold text-muted-foreground/40 tabular-nums">{i * 3}/10</div>
-            </div>
-          ))}
-        </div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="flex items-center gap-2 bg-white border border-border rounded-full px-4 py-2 shadow-md text-[13px] font-medium">
-            <svg className="w-3.5 h-3.5 text-[var(--color-brand)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+    <div className="w-full max-w-md mx-auto">
+      <div className="bg-white rounded-2xl border border-border shadow-xl p-6 md:p-8">
+        <div className="text-center mb-5">
+          <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-brand-50)] mb-3">
+            <svg className="w-5 h-5 text-[var(--color-brand)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            Desglose + Analisis IA + PDF
           </div>
-        </div>
-      </div>
-
-      {/* Form */}
-      <div className="bg-white rounded-2xl border border-border shadow-sm overflow-hidden">
-        <div className="bg-[var(--color-brand)] px-5 py-4">
-          <h3 className="text-white font-bold text-[15px]">
-            Desbloquea el analisis completo
+          <h3 className="font-bold text-[17px] mb-1">
+            A que correo te enviamos el reporte?
           </h3>
-          <p className="text-white/70 text-[12px] mt-0.5">
-            Desglose de 5 variables, analisis personalizado por IA y reporte PDF descargable.
+          <p className="text-[13px] text-muted-foreground">
+            Recibe el analisis completo con el desglose de variables, diagnostico por IA y un PDF descargable.
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="p-5">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-            <Input
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              placeholder="Nombre completo"
-              required
-              className="h-10 rounded-lg text-sm"
-            />
-            <Input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="tu@empresa.com"
-              required
-              className="h-10 rounded-lg text-sm"
-            />
-            <Input
-              value={company}
-              onChange={(e) => setCompany(e.target.value)}
-              placeholder="Empresa"
-              required
-              className="h-10 rounded-lg text-sm"
-            />
-            <Input
-              type="tel"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-              placeholder="Telefono (opcional)"
-              className="h-10 rounded-lg text-sm"
-            />
-          </div>
+        <form onSubmit={handleSubmit} className="space-y-3">
+          <Input
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Tu nombre"
+            required
+            className="h-10 rounded-lg text-sm"
+          />
+          <Input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="tu@empresa.com"
+            required
+            className="h-10 rounded-lg text-sm"
+          />
+          <Input
+            value={company}
+            onChange={(e) => setCompany(e.target.value)}
+            placeholder="Empresa"
+            required
+            className="h-10 rounded-lg text-sm"
+          />
+          <Input
+            type="tel"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            placeholder="Telefono (opcional)"
+            className="h-10 rounded-lg text-sm"
+          />
 
           {error && (
-            <p className="text-[12px] text-red-600 mb-3">{error}</p>
+            <p className="text-[12px] text-red-600">{error}</p>
           )}
 
           <Button
@@ -152,14 +131,14 @@ export function LeadGate({ result, input, onUnlock }: LeadGateProps) {
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                 </svg>
-                Generando reporte...
+                Preparando reporte...
               </span>
             ) : (
-              'Ver analisis completo y descargar PDF'
+              'Ver mi reporte completo'
             )}
           </Button>
 
-          <p className="text-[10px] text-center text-muted-foreground/60 mt-3">
+          <p className="text-[10px] text-center text-muted-foreground/50">
             Sin spam. Puedes darte de baja en cualquier momento.
           </p>
         </form>
