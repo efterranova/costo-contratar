@@ -1,27 +1,28 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { DM_Sans, Inter } from 'next/font/google';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import './globals.css';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const inter = Inter({
+  variable: '--font-inter',
   subsets: ['latin'],
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const dmSans = DM_Sans({
+  variable: '--font-dm-sans',
   subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
   title: 'IDC — Índice de Dificultad de Contratación | erecruit',
   description:
-    'Evalúa qué tan difícil será cubrir una posición en LATAM. Herramienta gratuita basada en datos reales del mercado laboral de 6 países.',
+    'Descubre qué tan difícil será cubrir tu vacante en LATAM. Herramienta gratuita con datos reales del mercado laboral de 6 países. Análisis basado en 5 variables y fuentes públicas verificables.',
   openGraph: {
-    title: 'IDC — Índice de Dificultad de Contratación',
+    title: '¿Qué tan difícil será cubrir tu vacante? | IDC by erecruit',
     description:
-      'Evalúa qué tan difícil será cubrir una posición en LATAM con datos reales del mercado laboral.',
+      'Calcula el Índice de Dificultad de Contratación para cualquier posición en LATAM. Datos reales, fuentes verificables, análisis por IA.',
     type: 'website',
     locale: 'es_LA',
   },
@@ -33,8 +34,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+    <html lang="es" className={`${inter.variable} ${dmSans.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col font-sans">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -34,7 +34,6 @@ export function LeadCaptureModal({ open, onOpenChange, result, input }: LeadCapt
     setLoading(true);
 
     try {
-      // Send lead to Brevo
       const leadRes = await fetch('/api/leads', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -56,7 +55,6 @@ export function LeadCaptureModal({ open, onOpenChange, result, input }: LeadCapt
         throw new Error(data.error || 'Error al registrar. Intenta de nuevo.');
       }
 
-      // Generate and download PDF
       const pdfRes = await fetch('/api/report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -93,27 +91,33 @@ export function LeadCaptureModal({ open, onOpenChange, result, input }: LeadCapt
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-md">
-        <DialogHeader>
-          <DialogTitle>Descargar reporte completo</DialogTitle>
-          <DialogDescription>
-            Obtén un análisis detallado en PDF con el desglose completo de las 5 variables,
-            recomendaciones y fuentes.
-          </DialogDescription>
-        </DialogHeader>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="space-y-2">
-            <Label htmlFor="name">Nombre completo *</Label>
+      <DialogContent className="sm:max-w-[440px] rounded-2xl p-0 overflow-hidden">
+        {/* Header gradient */}
+        <div className="bg-gradient-to-r from-indigo-600 via-blue-600 to-violet-600 px-6 pt-6 pb-5">
+          <DialogHeader>
+            <DialogTitle className="text-white text-lg font-heading">
+              Descargar reporte completo
+            </DialogTitle>
+            <DialogDescription className="text-indigo-100/80 text-[13px]">
+              Recibe un PDF con el analisis detallado, fuentes de datos y recomendaciones personalizadas.
+            </DialogDescription>
+          </DialogHeader>
+        </div>
+
+        <form onSubmit={handleSubmit} className="p-6 space-y-4">
+          <div className="space-y-1.5">
+            <Label htmlFor="name" className="text-[13px]">Nombre completo</Label>
             <Input
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Tu nombre"
               required
+              className="h-10 rounded-xl bg-muted/30 border-border/60"
             />
           </div>
-          <div className="space-y-2">
-            <Label htmlFor="email">Correo electrónico *</Label>
+          <div className="space-y-1.5">
+            <Label htmlFor="email" className="text-[13px]">Correo electronico</Label>
             <Input
               id="email"
               type="email"
@@ -121,47 +125,63 @@ export function LeadCaptureModal({ open, onOpenChange, result, input }: LeadCapt
               onChange={(e) => setEmail(e.target.value)}
               placeholder="tu@empresa.com"
               required
+              className="h-10 rounded-xl bg-muted/30 border-border/60"
             />
           </div>
-          <div className="space-y-2">
-            <Label htmlFor="company">Empresa *</Label>
+          <div className="space-y-1.5">
+            <Label htmlFor="company" className="text-[13px]">Empresa</Label>
             <Input
               id="company"
               value={company}
               onChange={(e) => setCompany(e.target.value)}
               placeholder="Nombre de tu empresa"
               required
+              className="h-10 rounded-xl bg-muted/30 border-border/60"
             />
           </div>
-          <div className="space-y-2">
-            <Label htmlFor="phone">Teléfono (opcional)</Label>
+          <div className="space-y-1.5">
+            <Label htmlFor="phone" className="text-[13px] text-muted-foreground">Telefono (opcional)</Label>
             <Input
               id="phone"
               type="tel"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="+52 55 1234 5678"
+              className="h-10 rounded-xl bg-muted/30 border-border/60"
             />
           </div>
+
           {error && (
-            <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+            <div className="rounded-xl bg-rose-50 border border-rose-200/60 px-4 py-2.5">
+              <p className="text-[13px] text-rose-600">{error}</p>
+            </div>
           )}
-          <Button type="submit" className="w-full" disabled={loading}>
+
+          <Button
+            type="submit"
+            disabled={loading}
+            className="w-full h-11 rounded-xl text-[14px] font-semibold bg-gradient-to-r from-indigo-600 via-blue-600 to-violet-600 hover:from-indigo-700 hover:via-blue-700 hover:to-violet-700 shadow-lg shadow-indigo-500/20 transition-all"
+          >
             {loading ? (
-              <>
-                <svg className="animate-spin -ml-1 mr-2 h-4 w-4" fill="none" viewBox="0 0 24 24">
+              <span className="flex items-center gap-2">
+                <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                 </svg>
-                Generando reporte...
-              </>
+                Generando tu reporte...
+              </span>
             ) : (
-              'Descargar reporte PDF'
+              <span className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Descargar reporte PDF
+              </span>
             )}
           </Button>
-          <p className="text-xs text-center text-muted-foreground">
-            Al descargar, aceptas recibir información relevante sobre contratación en LATAM.
-            Puedes darte de baja en cualquier momento.
+
+          <p className="text-[11px] text-center text-muted-foreground/70 leading-relaxed">
+            Al descargar, aceptas recibir informacion relevante sobre contratacion en LATAM. Puedes darte de baja en cualquier momento.
           </p>
         </form>
       </DialogContent>
