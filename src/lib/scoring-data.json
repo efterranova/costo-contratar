@@ -3886,5 +3886,653 @@
       "raw": "Informalidad 68%",
       "interpretation": "Gran parte de la fuerza laboral trabaja de manera informal: hay pocos candidatos con experiencia formal verificable"
     }
+  },
+  "ecuador.operativo.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Es el perfil que más empresas buscan: hay muchísima competencia por estos candidatos"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Los rangos salariales son estables: no hay presión significativa para pagar más"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.operativo.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Es el perfil que más empresas buscan: hay muchísima competencia por estos candidatos"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.operativo.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Es el perfil que más empresas buscan: hay muchísima competencia por estos candidatos"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.operaciones.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Muchas empresas están buscando este mismo perfil al mismo tiempo"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.operaciones.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Muchas empresas están buscando este mismo perfil al mismo tiempo"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.operaciones.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Muchas empresas están buscando este mismo perfil al mismo tiempo"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.comercial.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Perfil muy demandado: muchas empresas compiten por los mismos candidatos"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.comercial.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Perfil muy demandado: muchas empresas compiten por los mismos candidatos"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.comercial.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Perfil muy demandado: muchas empresas compiten por los mismos candidatos"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.tech.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda importante, y además compites con empresas de otros países que contratan remoto"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Competencia alta",
+      "interpretation": "Empresas de EE.UU., Europa y otros países contratan activamente estos perfiles en tu región, ofreciendo salarios en dólares y trabajo remoto"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.tech.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda importante, y además compites con empresas de otros países que contratan remoto"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Competencia alta",
+      "interpretation": "Empresas de EE.UU., Europa y otros países contratan activamente estos perfiles en tu región, ofreciendo salarios en dólares y trabajo remoto"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.tech.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda importante, y además compites con empresas de otros países que contratan remoto"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Los salarios para este perfil varían mucho: hay guerra por talento y necesitas ofrecer un salario muy competitivo. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Competencia alta",
+      "interpretation": "Empresas de EE.UU., Europa y otros países contratan activamente estos perfiles en tu región, ofreciendo salarios en dólares y trabajo remoto"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.marketing.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Demanda moderada en el mercado por este tipo de perfil"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Competencia moderada",
+      "interpretation": "Algunas empresas extranjeras buscan estos perfiles en tu país, lo que genera competencia adicional por candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.marketing.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Demanda moderada en el mercado por este tipo de perfil"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Competencia moderada",
+      "interpretation": "Algunas empresas extranjeras buscan estos perfiles en tu país, lo que genera competencia adicional por candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.marketing.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Demanda moderada en el mercado por este tipo de perfil"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Competencia moderada",
+      "interpretation": "Algunas empresas extranjeras buscan estos perfiles en tu país, lo que genera competencia adicional por candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.finanzas.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Relativamente pocas empresas buscan este perfil al mismo tiempo"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.finanzas.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Relativamente pocas empresas buscan este perfil al mismo tiempo"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.finanzas.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Relativamente pocas empresas buscan este perfil al mismo tiempo"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.rrhh.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja competencia entre empresas por este tipo de perfil"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Los rangos salariales son estables: no hay presión significativa para pagar más"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.rrhh.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja competencia entre empresas por este tipo de perfil"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.rrhh.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja competencia entre empresas por este tipo de perfil"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Los salarios del mercado son relativamente estables y predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Competencia baja",
+      "interpretation": "Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.ejecutivo.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Aunque pocas empresas los buscan, hay muy pocos candidatos disponibles con este nivel"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Competencia moderada",
+      "interpretation": "Algunas empresas extranjeras buscan estos perfiles en tu país, lo que genera competencia adicional por candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.ejecutivo.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Aunque pocas empresas los buscan, hay muy pocos candidatos disponibles con este nivel"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Los salarios para este perfil varían mucho: hay guerra por talento y necesitas ofrecer un salario muy competitivo. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Competencia moderada",
+      "interpretation": "Algunas empresas extranjeras buscan estos perfiles en tu país, lo que genera competencia adicional por candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
+  },
+  "ecuador.ejecutivo.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 18%",
+      "interpretation": "Pocas empresas están contratando activamente"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Aunque pocas empresas los buscan, hay muy pocos candidatos disponibles con este nivel"
+    },
+    "v3": {
+      "score": 10,
+      "raw": "Guerra por talento",
+      "interpretation": "Los salarios para este perfil varían mucho: hay guerra por talento y necesitas ofrecer un salario muy competitivo. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Competencia moderada",
+      "interpretation": "Algunas empresas extranjeras buscan estos perfiles en tu país, lo que genera competencia adicional por candidatos"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 63%",
+      "interpretation": "Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable"
+    }
   }
 }

@@ -21,13 +21,13 @@ export async function POST(request: Request) {
       );
     }
 
-    const result = await createBrevoContact(body);
-
-    if (!result.success) {
-      return NextResponse.json(
-        { error: result.error || 'Error al registrar contacto' },
-        { status: 500 }
-      );
+    // Brevo is optional — if not configured, still allow the flow
+    const brevoKey = process.env.BREVO_API_KEY;
+    if (brevoKey && brevoKey !== 'placeholder') {
+      const result = await createBrevoContact(body);
+      if (!result.success) {
+        console.warn('Brevo error (non-blocking):', result.error);
+      }
     }
 
     return NextResponse.json({ success: true });

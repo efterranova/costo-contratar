@@ -1,4 +1,4 @@
-export type Country = 'mexico' | 'colombia' | 'brazil' | 'argentina' | 'chile' | 'peru';
+export type Country = 'mexico' | 'colombia' | 'brazil' | 'argentina' | 'chile' | 'peru' | 'ecuador';
 export type RoleCategory = 'operativo' | 'operaciones' | 'comercial' | 'tech' | 'marketing' | 'finanzas' | 'rrhh' | 'ejecutivo';
 export type SeniorityLevel = 'junior' | 'mid' | 'senior';
 

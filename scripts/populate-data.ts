@@ -11,7 +11,7 @@
  * Ejecutar: npx tsx scripts/populate-data.ts
  */
 
-type Country = 'mexico' | 'colombia' | 'brazil' | 'argentina' | 'chile' | 'peru';
+type Country = 'mexico' | 'colombia' | 'brazil' | 'argentina' | 'chile' | 'peru' | 'ecuador';
 type Role = 'operativo' | 'operaciones' | 'comercial' | 'tech' | 'marketing' | 'finanzas' | 'rrhh' | 'ejecutivo';
 type Seniority = 'junior' | 'mid' | 'senior';
 
@@ -25,6 +25,7 @@ const neoByCountry: Record<Country, number> = {
   argentina: 16,
   chile: 28,
   peru: 22,
+  ecuador: 18,  // Estimado: actividad moderada-baja, similar a Colombia/Perú
 };
 
 function neoToScore(neo: number): number {
@@ -115,6 +116,7 @@ const salaryCountryAdj: Record<Country, number> = {
   argentina: 1,  // Alta dispersión por inflación/USD
   chile: 0,      // Mercado más estable
   peru: 0,       // Mercado más pequeño, menor dispersión
+  ecuador: 0,    // Mercado interno, baja exposición USD
 };
 
 // USD remote exposure by role (adds +2 for remote-eligible roles)
@@ -183,6 +185,7 @@ const nearshoringCountryAdj: Record<Country, number> = {
   argentina: 0,
   chile: 0,
   peru: 0,
+  ecuador: 0,
 };
 
 function getV4(country: Country, role: Role): { score: number; raw: string; interpretation: string } {
@@ -215,6 +218,7 @@ const informalityByCountry: Record<Country, number> = {
   argentina: 45,
   chile: 27,
   peru: 68,
+  ecuador: 63,  // ILOSTAT: informalidad ~63% según OIT
 };
 
 function informalityToScore(rate: number): number {
@@ -245,7 +249,7 @@ function getV5(country: Country): { score: number; raw: string; interpretation: 
 // ============================================================
 // Generar todas las combinaciones
 // ============================================================
-const countries: Country[] = ['mexico', 'colombia', 'brazil', 'argentina', 'chile', 'peru'];
+const countries: Country[] = ['mexico', 'colombia', 'brazil', 'argentina', 'chile', 'peru', 'ecuador'];
 const roles: Role[] = ['operativo', 'operaciones', 'comercial', 'tech', 'marketing', 'finanzas', 'rrhh', 'ejecutivo'];
 const seniorities: Seniority[] = ['junior', 'mid', 'senior'];
 

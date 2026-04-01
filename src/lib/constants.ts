@@ -15,6 +15,7 @@ export const COUNTRIES: { value: Country; label: string }[] = [
   { value: 'argentina', label: 'Argentina' },
   { value: 'chile', label: 'Chile' },
   { value: 'peru', label: 'Perú' },
+  { value: 'ecuador', label: 'Ecuador' },
 ];
 
 export const ROLES: { value: RoleCategory; label: string }[] = [
