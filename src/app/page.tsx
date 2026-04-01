@@ -1,6 +1,5 @@
 import { HeroSection } from '@/components/hero-section';
 import { IDCCalculator } from '@/components/idc-calculator';
-import Link from 'next/link';
 
 function HowItWorks() {
   return (
@@ -25,24 +24,16 @@ function HowItWorks() {
             ))}
           </div>
 
-          {/* Trust signals */}
-          <div className="grid grid-cols-3 gap-4 text-center">
+          <div className="grid grid-cols-2 gap-4 text-center">
             {[
               { label: 'Datos verificables', sub: 'Cada variable tiene fuente publica' },
-              { label: 'Sin registro previo', sub: 'Resultado basico inmediato y gratis' },
-              { label: 'Metodologia abierta', sub: 'Formula y fuentes publicadas' },
+              { label: 'Resultado inmediato', sub: 'Score y analisis en segundos' },
             ].map((t) => (
               <div key={t.label} className="py-3">
                 <p className="text-[12px] font-semibold mb-0.5">{t.label}</p>
                 <p className="text-[11px] text-muted-foreground">{t.sub}</p>
               </div>
             ))}
-          </div>
-
-          <div className="text-center mt-8">
-            <Link href="/metodologia" className="text-[13px] text-[var(--color-brand)] font-medium hover:underline">
-              Ver metodologia completa &rarr;
-            </Link>
           </div>
         </div>
       </div>

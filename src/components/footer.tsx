@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 
 export function Footer() {
@@ -8,13 +7,10 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="flex items-center gap-6">
             <Image src="/erecruit-color.png" alt="erecruit" width={100} height={26} className="h-5 w-auto" />
-            <div className="flex gap-4 text-[12px] text-muted-foreground">
-              <Link href="/metodologia" className="hover:text-foreground transition-colors">Metodologia</Link>
-              <a href="https://erecruit.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">erecruit.ca</a>
-            </div>
+            <a href="https://erecruit.ca/" target="_blank" rel="noopener noreferrer" className="text-[12px] text-muted-foreground hover:text-foreground transition-colors">erecruit.ca</a>
           </div>
           <p className="text-[11px] text-muted-foreground/60">
-            Datos Q2 2026 &middot; ManpowerGroup, Computrabajo, ILOSTAT, Interfell, Hays
+            Datos Q2 2026 &middot; Fuentes publicas verificables
           </p>
         </div>
       </div>

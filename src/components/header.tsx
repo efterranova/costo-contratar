@@ -15,22 +15,14 @@ export function Header() {
             priority
           />
         </Link>
-        <nav className="flex items-center gap-0.5">
-          <Link
-            href="/metodologia"
-            className="rounded-md px-3 py-1.5 text-[13px] text-muted-foreground hover:text-foreground hover:bg-muted transition-all"
-          >
-            Metodologia
-          </Link>
-          <a
-            href="https://erecruit.ca/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-md px-3 py-1.5 text-[13px] font-medium text-[var(--color-brand)] hover:bg-brand-50 transition-all"
-          >
-            erecruit.ca &rarr;
-          </a>
-        </nav>
+        <a
+          href="https://erecruit.ca/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-md px-3 py-1.5 text-[13px] font-medium text-[var(--color-brand)] hover:bg-brand-50 transition-all"
+        >
+          erecruit.ca &rarr;
+        </a>
       </div>
     </header>
   );
