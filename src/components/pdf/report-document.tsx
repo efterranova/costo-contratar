@@ -323,7 +323,7 @@ export function ReportDocument({
         </View>
 
         <View style={styles.footer}>
-          <Text style={styles.footerText}>Powered by erecruit — erecruit.com</Text>
+          <Text style={styles.footerText}>Powered by erecruit — erecruit.ca</Text>
           <Text style={styles.footerText}>Página 2 de 3</Text>
         </View>
       </Page>
@@ -382,7 +382,7 @@ export function ReportDocument({
         </View>
 
         <View style={styles.footer}>
-          <Text style={styles.footerText}>Powered by erecruit — erecruit.com</Text>
+          <Text style={styles.footerText}>Powered by erecruit — erecruit.ca</Text>
           <Text style={styles.footerText}>Página 3 de 3</Text>
         </View>
       </Page>

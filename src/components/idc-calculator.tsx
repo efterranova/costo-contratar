@@ -15,8 +15,7 @@ import type { Country, RoleCategory, SeniorityLevel, IDCResult, ScoringInput } f
 import { ScoreDisplay } from './score-display';
 import { VariableBreakdown } from './variable-breakdown';
 import { AIInterpretation } from './ai-interpretation';
-import { RecommendationCard } from './recommendation-card';
-import { LeadCaptureModal } from './lead-capture-modal';
+import { LeadGate } from './lead-gate';
 
 export function IDCCalculator() {
   const [country, setCountry] = useState<Country | ''>('');
@@ -24,7 +23,7 @@ export function IDCCalculator() {
   const [seniority, setSeniority] = useState<SeniorityLevel | ''>('');
   const [result, setResult] = useState<IDCResult | null>(null);
   const [input, setInput] = useState<ScoringInput | null>(null);
-  const [showModal, setShowModal] = useState(false);
+  const [unlocked, setUnlocked] = useState(false);
   const resultRef = useRef<HTMLDivElement>(null);
 
   function handleCalculate() {
@@ -33,6 +32,7 @@ export function IDCCalculator() {
     const idcResult = calculateIDC(scoringInput);
     setInput(scoringInput);
     setResult(idcResult);
+    setUnlocked(false);
     setTimeout(() => {
       resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 100);
@@ -45,7 +45,6 @@ export function IDCCalculator() {
       <div className="max-w-3xl mx-auto">
         {/* Calculator card */}
         <div className="relative rounded-3xl border border-border/60 bg-card shadow-xl shadow-indigo-500/[0.03] p-6 md:p-10 mb-10">
-          {/* Subtle top gradient line */}
           <div className="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-indigo-500/30 to-transparent" />
 
           <div className="text-center mb-8">
@@ -71,14 +70,11 @@ export function IDCCalculator() {
                 </SelectTrigger>
                 <SelectContent>
                   {COUNTRIES.map((c) => (
-                    <SelectItem key={c.value} value={c.value}>
-                      {c.label}
-                    </SelectItem>
+                    <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>
             </div>
-
             <div className="space-y-2.5">
               <label className="text-[13px] font-medium text-foreground flex items-center gap-2">
                 <svg className="w-3.5 h-3.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -92,14 +88,11 @@ export function IDCCalculator() {
                 </SelectTrigger>
                 <SelectContent>
                   {ROLES.map((r) => (
-                    <SelectItem key={r.value} value={r.value}>
-                      {r.label}
-                    </SelectItem>
+                    <SelectItem key={r.value} value={r.value}>{r.label}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>
             </div>
-
             <div className="space-y-2.5">
               <label className="text-[13px] font-medium text-foreground flex items-center gap-2">
                 <svg className="w-3.5 h-3.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -113,9 +106,7 @@ export function IDCCalculator() {
                 </SelectTrigger>
                 <SelectContent>
                   {SENIORITY_LEVELS.map((s) => (
-                    <SelectItem key={s.value} value={s.value}>
-                      {s.label}
-                    </SelectItem>
+                    <SelectItem key={s.value} value={s.value}>{s.label}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>
@@ -138,19 +129,25 @@ export function IDCCalculator() {
         {/* Results */}
         {result && input && (
           <div ref={resultRef} className="space-y-8 animate-in fade-in slide-in-from-bottom-6 duration-700">
-            <ScoreDisplay result={result} />
-            <VariableBreakdown variables={result.variables} />
-            <AIInterpretation input={input} />
-            <RecommendationCard
-              result={result}
-              onDownloadPDF={() => setShowModal(true)}
-            />
-            <LeadCaptureModal
-              open={showModal}
-              onOpenChange={setShowModal}
-              result={result}
-              input={input}
-            />
+            {/* Score — always visible (free) */}
+            <ScoreDisplay result={result} country={input.country} role={input.role} seniority={input.seniority} />
+
+            {/* Lead gate — form appears RIGHT after score */}
+            {!unlocked && (
+              <LeadGate
+                result={result}
+                input={input}
+                onUnlock={() => setUnlocked(true)}
+              />
+            )}
+
+            {/* Full breakdown — only after lead capture */}
+            {unlocked && (
+              <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
+                <VariableBreakdown variables={result.variables} />
+                <AIInterpretation input={input} />
+              </div>
+            )}
           </div>
         )}
       </div>

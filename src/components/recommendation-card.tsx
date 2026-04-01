@@ -35,7 +35,7 @@ export function RecommendationCard({ onDownloadPDF }: RecommendationCardProps) {
             Descargar PDF
           </Button>
           <a
-            href="https://erecruit.com"
+            href="https://erecruit.ca/"
             target="_blank"
             rel="noopener noreferrer"
             className="h-11 px-6 inline-flex items-center justify-center rounded-xl border border-border/60 bg-card hover:bg-muted/60 text-[13px] font-medium transition-all"

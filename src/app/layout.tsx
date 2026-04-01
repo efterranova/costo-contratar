@@ -16,6 +16,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  icons: { icon: '/favicon.png' },
   title: 'IDC — Índice de Dificultad de Contratación | erecruit',
   description:
     'Descubre qué tan difícil será cubrir tu vacante en LATAM. Herramienta gratuita con datos reales del mercado laboral de 6 países. Análisis basado en 5 variables y fuentes públicas verificables.',

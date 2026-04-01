@@ -112,9 +112,9 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <IDCCalculator />
       <HowItWorks />
       <TrustSection />
-      <IDCCalculator />
     </>
   );
 }
