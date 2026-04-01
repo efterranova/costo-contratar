@@ -5,34 +5,22 @@ import { COUNTRIES, ROLES, SENIORITY_LEVELS } from '@/lib/constants';
 
 const levelConfig = {
   baja: {
-    label: 'Dificultad Baja',
-    sublabel: 'Proceso de contratacion favorable',
-    color: 'text-emerald-600',
-    bg: 'bg-emerald-50/80',
-    border: 'border-emerald-200/60',
-    ring: 'stroke-emerald-500',
-    gradient: 'from-emerald-500 to-teal-500',
-    glow: 'shadow-emerald-500/10',
+    label: 'Baja',
+    color: 'var(--color-score-low)',
+    bg: '#ECFDF5',
+    border: '#A7F3D0',
   },
   media: {
-    label: 'Dificultad Media',
-    sublabel: 'Requiere estrategia diferenciada',
-    color: 'text-amber-600',
-    bg: 'bg-amber-50/80',
-    border: 'border-amber-200/60',
-    ring: 'stroke-amber-500',
-    gradient: 'from-amber-500 to-orange-500',
-    glow: 'shadow-amber-500/10',
+    label: 'Media',
+    color: 'var(--color-score-mid)',
+    bg: '#FFFBEB',
+    border: '#FDE68A',
   },
   alta: {
-    label: 'Dificultad Alta',
-    sublabel: 'Necesita busqueda activa especializada',
-    color: 'text-rose-600',
-    bg: 'bg-rose-50/80',
-    border: 'border-rose-200/60',
-    ring: 'stroke-rose-500',
-    gradient: 'from-rose-500 to-red-500',
-    glow: 'shadow-rose-500/10',
+    label: 'Alta',
+    color: 'var(--color-score-high)',
+    bg: '#FEF2F2',
+    border: '#FECACA',
   },
 };
 
@@ -46,7 +34,7 @@ interface ScoreDisplayProps {
 export function ScoreDisplay({ result, country, role, seniority }: ScoreDisplayProps) {
   const config = levelConfig[result.level];
   const percentage = (result.roundedScore / 10) * 100;
-  const circumference = 2 * Math.PI * 54;
+  const circumference = 2 * Math.PI * 40;
   const strokeDashoffset = circumference - (percentage / 100) * circumference;
 
   const countryLabel = country ? COUNTRIES.find(c => c.value === country)?.label : undefined;
@@ -54,63 +42,52 @@ export function ScoreDisplay({ result, country, role, seniority }: ScoreDisplayP
   const seniorityLabel = seniority ? SENIORITY_LEVELS.find(s => s.value === seniority)?.label : undefined;
 
   return (
-    <div className={`relative rounded-3xl border ${config.border} ${config.bg} p-8 md:p-10 shadow-lg ${config.glow} overflow-hidden`}>
-      {/* Subtle background pattern */}
-      <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle, currentColor 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
+    <div className="bg-white rounded-2xl border border-border shadow-sm overflow-hidden">
+      {/* Top bar */}
+      <div className="px-5 py-3 border-b border-border/60 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <div className="h-5 w-5 rounded-full flex items-center justify-center" style={{ backgroundColor: config.bg, border: `1.5px solid ${config.border}` }}>
+            <div className="h-2 w-2 rounded-full" style={{ backgroundColor: config.color }} />
+          </div>
+          <span className="text-[13px] font-semibold" style={{ color: config.color }}>
+            Dificultad {config.label}
+          </span>
+        </div>
+        {countryLabel && (
+          <span className="text-[12px] text-muted-foreground">
+            {roleLabel} &middot; {seniorityLabel} &middot; {countryLabel}
+          </span>
+        )}
+      </div>
 
-      <div className="relative flex flex-col md:flex-row items-center gap-8 md:gap-12">
-        {/* Circular gauge */}
-        <div className="relative w-44 h-44 flex-shrink-0">
-          {/* Outer glow */}
-          <div className={`absolute inset-2 rounded-full bg-gradient-to-br ${config.gradient} opacity-5 blur-xl`} />
-
-          <svg className="w-full h-full -rotate-90" viewBox="0 0 120 120">
-            {/* Background track */}
+      {/* Score body */}
+      <div className="p-5 md:p-6 flex items-center gap-6 md:gap-8">
+        {/* Gauge */}
+        <div className="relative w-28 h-28 flex-shrink-0">
+          <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" fill="none" stroke="#F1F5F9" strokeWidth="5" />
             <circle
-              cx="60" cy="60" r="54"
+              cx="50" cy="50" r="40"
               fill="none"
-              stroke="currentColor"
-              strokeWidth="6"
-              className="text-black/[0.06]"
-            />
-            {/* Score arc */}
-            <circle
-              cx="60" cy="60" r="54"
-              fill="none"
-              strokeWidth="6"
+              strokeWidth="5"
               strokeLinecap="round"
-              className={config.ring}
+              stroke={config.color}
               strokeDasharray={circumference}
               strokeDashoffset={strokeDashoffset}
-              style={{ transition: 'stroke-dashoffset 1.2s cubic-bezier(0.34, 1.56, 0.64, 1)' }}
+              style={{ transition: 'stroke-dashoffset 1s cubic-bezier(0.34,1.56,0.64,1)' }}
             />
           </svg>
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <span className={`text-5xl font-heading font-bold ${config.color} leading-none`}>
+            <span className="text-3xl font-extrabold leading-none tabular-nums" style={{ color: config.color }}>
               {result.roundedScore}
             </span>
-            <span className="text-xs text-muted-foreground mt-1 font-medium">de 10</span>
+            <span className="text-[10px] text-muted-foreground font-medium mt-0.5">de 10</span>
           </div>
         </div>
 
-        {/* Info */}
-        <div className="text-center md:text-left flex-1">
-          {(countryLabel || roleLabel) && (
-            <p className="text-[13px] text-muted-foreground mb-2">
-              {roleLabel} {seniorityLabel && `(${seniorityLabel})`} {countryLabel && `en ${countryLabel}`}
-            </p>
-          )}
-
-          <div className={`inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-semibold ${config.color} bg-white/60 border ${config.border} mb-3 shadow-sm`}>
-            <span className={`h-2 w-2 rounded-full bg-gradient-to-r ${config.gradient}`} />
-            {config.label}
-          </div>
-
-          <p className={`text-[13px] ${config.color} font-medium mb-3`}>
-            {config.sublabel}
-          </p>
-
-          <p className="text-muted-foreground text-[14px] leading-relaxed">
+        {/* Text */}
+        <div className="flex-1 min-w-0">
+          <p className="text-[14px] text-foreground/80 leading-relaxed">
             {result.recommendation}
           </p>
         </div>

@@ -3,50 +3,18 @@ import Image from 'next/image';
 
 export function Footer() {
   return (
-    <footer className="border-t border-border/50 bg-muted/20">
-      <div className="container mx-auto px-4 md:px-6 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <Image
-              src="/erecruit-color.png"
-              alt="erecruit"
-              width={110}
-              height={28}
-              className="h-6 w-auto mb-3"
-            />
-            <p className="text-[13px] text-muted-foreground leading-relaxed max-w-xs">
-              Plataforma de contratacion para Latinoamerica. Conectamos empleadores con el talento que necesitan.
-            </p>
-          </div>
-          <div>
-            <h4 className="text-[13px] font-semibold mb-3">Herramienta</h4>
-            <div className="flex flex-col gap-2">
-              <Link href="/" className="text-[13px] text-muted-foreground hover:text-foreground transition-colors">
-                Calculadora IDC
-              </Link>
-              <Link href="/metodologia" className="text-[13px] text-muted-foreground hover:text-foreground transition-colors">
-                Metodologia y fuentes
-              </Link>
-              <a href="https://erecruit.ca/" target="_blank" rel="noopener noreferrer" className="text-[13px] text-muted-foreground hover:text-foreground transition-colors">
-                erecruit.ca
-              </a>
+    <footer className="border-t border-border/50">
+      <div className="container mx-auto px-4 md:px-6 py-8">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+          <div className="flex items-center gap-6">
+            <Image src="/erecruit-color.png" alt="erecruit" width={100} height={26} className="h-5 w-auto" />
+            <div className="flex gap-4 text-[12px] text-muted-foreground">
+              <Link href="/metodologia" className="hover:text-foreground transition-colors">Metodologia</Link>
+              <a href="https://erecruit.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">erecruit.ca</a>
             </div>
           </div>
-          <div>
-            <h4 className="text-[13px] font-semibold mb-3">Datos</h4>
-            <p className="text-[13px] text-muted-foreground leading-relaxed">
-              Ultima actualizacion: Q2 2026.
-              <br />
-              Fuentes: ManpowerGroup, Computrabajo, ILOSTAT, Interfell, Hays.
-            </p>
-          </div>
-        </div>
-        <div className="mt-8 pt-6 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-xs text-muted-foreground/70">
-            El IDC es un indicador relativo basado en fuentes publicas. No constituye una prediccion garantizada.
-          </p>
-          <p className="text-xs text-muted-foreground/70">
-            Powered by erecruit
+          <p className="text-[11px] text-muted-foreground/60">
+            Datos Q2 2026 &middot; ManpowerGroup, Computrabajo, ILOSTAT, Interfell, Hays
           </p>
         </div>
       </div>

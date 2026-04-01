@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { DM_Sans, Inter } from 'next/font/google';
+import { DM_Sans, Plus_Jakarta_Sans } from 'next/font/google';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import './globals.css';
 
-const inter = Inter({
+const jakarta = Plus_Jakarta_Sans({
   variable: '--font-inter',
   subsets: ['latin'],
 });
@@ -12,18 +12,18 @@ const inter = Inter({
 const dmSans = DM_Sans({
   variable: '--font-dm-sans',
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700', '800'],
 });
 
 export const metadata: Metadata = {
   icons: { icon: '/favicon.png' },
-  title: 'IDC — Índice de Dificultad de Contratación | erecruit',
+  title: 'IDC — Indice de Dificultad de Contratacion | erecruit',
   description:
-    'Descubre qué tan difícil será cubrir tu vacante en LATAM. Herramienta gratuita con datos reales del mercado laboral de 6 países. Análisis basado en 5 variables y fuentes públicas verificables.',
+    'Descubre que tan dificil sera cubrir tu vacante en LATAM. Herramienta gratuita con datos reales del mercado laboral de 6 paises.',
   openGraph: {
-    title: '¿Qué tan difícil será cubrir tu vacante? | IDC by erecruit',
+    title: 'Que tan dificil sera cubrir tu vacante? | IDC by erecruit',
     description:
-      'Calcula el Índice de Dificultad de Contratación para cualquier posición en LATAM. Datos reales, fuentes verificables, análisis por IA.',
+      'Calcula el Indice de Dificultad de Contratacion para cualquier posicion en LATAM. Datos reales, fuentes verificables, analisis por IA.',
     type: 'website',
     locale: 'es_LA',
   },
@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${inter.variable} ${dmSans.variable} h-full antialiased`}>
+    <html lang="es" className={`${jakarta.variable} ${dmSans.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
         <Header />
         <main className="flex-1">{children}</main>
