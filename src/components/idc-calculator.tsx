@@ -14,6 +14,7 @@ import { calculateIDC } from '@/lib/scoring-engine';
 import type { Country, RoleCategory, SeniorityLevel, IDCResult, ScoringInput } from '@/lib/types';
 import { ScoreDisplay } from './score-display';
 import { VariableBreakdown } from './variable-breakdown';
+import { AIInterpretation } from './ai-interpretation';
 import { RecommendationCard } from './recommendation-card';
 import { LeadCaptureModal } from './lead-capture-modal';
 
@@ -101,6 +102,7 @@ export function IDCCalculator() {
           <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
             <ScoreDisplay result={result} />
             <VariableBreakdown variables={result.variables} />
+            <AIInterpretation input={input} />
             <RecommendationCard
               result={result}
               onDownloadPDF={() => setShowModal(true)}

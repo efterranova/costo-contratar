@@ -35,11 +35,11 @@ export const SENIORITY_LEVELS: { value: SeniorityLevel; label: string }[] = [
 ];
 
 export const VARIABLE_NAMES: Record<string, string> = {
-  v1: 'Presión de demanda del país',
-  v2: 'Concentración de demanda del perfil',
-  v3: 'Competencia salarial externa',
-  v4: 'Exposición al nearshoring',
-  v5: 'Fragilidad estructural del mercado',
+  v1: '¿Cuántas empresas están contratando?',
+  v2: '¿Cuántas buscan el mismo perfil?',
+  v3: '¿Qué tan competitivos son los salarios?',
+  v4: '¿Compites con empresas extranjeras?',
+  v5: '¿Qué tan difícil es encontrar talento formal?',
 };
 
 export const VARIABLE_SOURCES: Record<string, string> = {

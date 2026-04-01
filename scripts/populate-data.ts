@@ -42,14 +42,14 @@ function getV1(country: Country): { score: number; raw: string; interpretation: 
   const neo = neoByCountry[country];
   const score = neoToScore(neo);
   const labels: Record<number, string> = {
-    10: 'Presión máxima: la mayoría de empresas planea contratar',
-    8: 'Presión alta de contratación en el mercado',
-    7: 'Presión media-alta de contratación',
-    5: 'Presión moderada de contratación',
-    4: 'Presión moderada-baja de contratación',
-    3: 'Presión baja de contratación',
-    2: 'Presión baja de contratación',
-    1: 'Mercado en contracción',
+    10: 'Casi todas las empresas del país planean contratar: competencia máxima por candidatos',
+    8: 'Muchas empresas están contratando: hay alta competencia por el talento disponible',
+    7: 'Hay bastante actividad de contratación en el mercado',
+    5: 'Actividad de contratación moderada: competencia normal por candidatos',
+    4: 'Pocas empresas están contratando activamente',
+    3: 'Baja actividad de contratación: menos competencia entre empleadores',
+    2: 'Muy pocas empresas están contratando',
+    1: 'El mercado está en contracción: mínima competencia',
   };
   return {
     score,
@@ -75,14 +75,14 @@ const demandByRole: Record<Role, { pct: number; score: number }> = {
 function getV2(role: Role): { score: number; raw: string; interpretation: string } {
   const d = demandByRole[role];
   const interpretations: Record<Role, string> = {
-    operativo: 'Máxima concentración: competencia feroz por estos perfiles',
-    operaciones: 'Alta concentración de demanda en el mercado',
-    comercial: 'Alta concentración: muchas empresas buscan este perfil',
-    tech: 'Demanda moderada pero con presión de nearshoring',
-    marketing: 'Concentración media de demanda',
-    finanzas: 'Concentración moderada-baja',
-    rrhh: 'Baja concentración de demanda',
-    ejecutivo: 'Baja oferta de candidatos, alta complejidad de búsqueda',
+    operativo: 'Es el perfil que más empresas buscan: hay muchísima competencia por estos candidatos',
+    operaciones: 'Muchas empresas están buscando este mismo perfil al mismo tiempo',
+    comercial: 'Perfil muy demandado: muchas empresas compiten por los mismos candidatos',
+    tech: 'Demanda importante, y además compites con empresas de otros países que contratan remoto',
+    marketing: 'Demanda moderada en el mercado por este tipo de perfil',
+    finanzas: 'Relativamente pocas empresas buscan este perfil al mismo tiempo',
+    rrhh: 'Baja competencia entre empresas por este tipo de perfil',
+    ejecutivo: 'Aunque pocas empresas los buscan, hay muy pocos candidatos disponibles con este nivel',
   };
   return {
     score: d.score,
@@ -147,12 +147,12 @@ function getV3(country: Country, role: Role, seniority: Seniority): { score: num
   };
 
   let interpretation = '';
-  if (score >= 8) interpretation = 'Alta competencia salarial: empresas compiten agresivamente por estos perfiles';
-  else if (score >= 5) interpretation = 'Competencia salarial significativa: necesita oferta competitiva';
-  else if (score >= 3) interpretation = 'Competencia salarial moderada: rangos de mercado estables';
-  else interpretation = 'Baja competencia salarial: mercado estable con rangos predecibles';
+  if (score >= 8) interpretation = 'Los salarios para este perfil varían mucho: hay guerra por talento y necesitas ofrecer un salario muy competitivo';
+  else if (score >= 5) interpretation = 'Los salarios están dispersos: necesitas una oferta atractiva para competir por buenos candidatos';
+  else if (score >= 3) interpretation = 'Los salarios del mercado son relativamente estables y predecibles';
+  else interpretation = 'Los rangos salariales son estables: no hay presión significativa para pagar más';
 
-  if (usdExposureByRole[role]) interpretation += '. Exposición a salarios en USD (remoto internacional)';
+  if (usdExposureByRole[role]) interpretation += '. Además, estos perfiles pueden recibir ofertas en dólares de empresas internacionales';
 
   return {
     score,
@@ -192,14 +192,14 @@ function getV4(country: Country, role: Role): { score: number; raw: string; inte
   let level: string;
   let interpretation: string;
   if (score >= 8) {
-    level = 'Alta exposición';
-    interpretation = 'Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales';
+    level = 'Competencia alta';
+    interpretation = 'Empresas de EE.UU., Europa y otros países contratan activamente estos perfiles en tu región, ofreciendo salarios en dólares y trabajo remoto';
   } else if (score >= 5) {
-    level = 'Exposición media';
-    interpretation = 'Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional';
+    level = 'Competencia moderada';
+    interpretation = 'Algunas empresas extranjeras buscan estos perfiles en tu país, lo que genera competencia adicional por candidatos';
   } else {
-    level = 'Baja exposición';
-    interpretation = 'Baja exposición al nearshoring: demanda principalmente local';
+    level = 'Competencia baja';
+    interpretation = 'Este perfil se contrata principalmente a nivel local: las empresas extranjeras no suelen competir por estos candidatos';
   }
 
   return { score, raw: level, interpretation };
@@ -231,9 +231,9 @@ function getV5(country: Country): { score: number; raw: string; interpretation: 
   const score = informalityToScore(rate);
 
   let interpretation: string;
-  if (score >= 7) interpretation = 'Mercado frágil: el pool de candidatos formales y verificables es reducido';
-  else if (score >= 5) interpretation = 'Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal';
-  else interpretation = 'Mercado relativamente estable con amplio pool de candidatos formales';
+  if (score >= 7) interpretation = 'Gran parte de la fuerza laboral trabaja de manera informal: hay pocos candidatos con experiencia formal verificable';
+  else if (score >= 5) interpretation = 'Una porción significativa del mercado es informal, lo que reduce la cantidad de candidatos con historial laboral comprobable';
+  else interpretation = 'La mayoría de trabajadores están en el mercado formal: es más fácil encontrar candidatos con experiencia verificable';
 
   return {
     score,
