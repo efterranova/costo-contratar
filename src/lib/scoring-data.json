@@ -1,0 +1,3890 @@
+{
+  "mexico.operativo.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.operativo.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.operativo.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.operaciones.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.operaciones.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.operaciones.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.comercial.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.comercial.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.comercial.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.tech.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 9,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.tech.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 9,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.tech.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 9,
+      "raw": "Dispersión muy alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 9,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.marketing.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 7,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.marketing.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 7,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.marketing.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 7,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.finanzas.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.finanzas.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.finanzas.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.rrhh.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.rrhh.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.rrhh.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.ejecutivo.junior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.ejecutivo.mid": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 9,
+      "raw": "Dispersión muy alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "mexico.ejecutivo.senior": {
+    "v1": {
+      "score": 7,
+      "raw": "NEO 35%",
+      "interpretation": "Presión media-alta de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 10,
+      "raw": "Guerra por talento",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 55%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.operativo.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.operativo.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.operativo.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.operaciones.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.operaciones.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.operaciones.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.comercial.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.comercial.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.comercial.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.tech.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 9,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.tech.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 9,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.tech.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 9,
+      "raw": "Dispersión muy alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 9,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.marketing.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 7,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.marketing.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 7,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.marketing.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 7,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.finanzas.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.finanzas.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.finanzas.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.rrhh.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.rrhh.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.rrhh.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.ejecutivo.junior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.ejecutivo.mid": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 9,
+      "raw": "Dispersión muy alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "colombia.ejecutivo.senior": {
+    "v1": {
+      "score": 4,
+      "raw": "NEO 19%",
+      "interpretation": "Presión moderada-baja de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 10,
+      "raw": "Guerra por talento",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 6,
+      "raw": "Informalidad 58%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "brazil.operativo.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Baja competencia salarial: mercado estable con rangos predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.operativo.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.operativo.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.operaciones.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.operaciones.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.operaciones.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.comercial.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.comercial.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.comercial.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.tech.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.tech.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.tech.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.marketing.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.marketing.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.marketing.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.finanzas.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.finanzas.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.finanzas.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.rrhh.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Baja competencia salarial: mercado estable con rangos predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.rrhh.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.rrhh.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.ejecutivo.junior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.ejecutivo.mid": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "brazil.ejecutivo.senior": {
+    "v1": {
+      "score": 10,
+      "raw": "NEO 55%",
+      "interpretation": "Presión máxima: la mayoría de empresas planea contratar"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 10,
+      "raw": "Guerra por talento",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 4,
+      "raw": "Informalidad 40%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "argentina.operativo.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.operativo.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.operativo.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.operaciones.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.operaciones.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.operaciones.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.comercial.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.comercial.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.comercial.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.tech.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.tech.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.tech.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 9,
+      "raw": "Dispersión muy alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.marketing.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.marketing.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.marketing.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.finanzas.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.finanzas.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.finanzas.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.rrhh.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.rrhh.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.rrhh.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.ejecutivo.junior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.ejecutivo.mid": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 9,
+      "raw": "Dispersión muy alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "argentina.ejecutivo.senior": {
+    "v1": {
+      "score": 3,
+      "raw": "NEO 16%",
+      "interpretation": "Presión baja de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 10,
+      "raw": "Guerra por talento",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 5,
+      "raw": "Informalidad 45%",
+      "interpretation": "Fragilidad moderada: disponibilidad limitada de candidatos en el mercado formal"
+    }
+  },
+  "chile.operativo.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Baja competencia salarial: mercado estable con rangos predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.operativo.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.operativo.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.operaciones.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.operaciones.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.operaciones.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.comercial.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.comercial.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.comercial.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.tech.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.tech.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.tech.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.marketing.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.marketing.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.marketing.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.finanzas.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.finanzas.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.finanzas.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.rrhh.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Baja competencia salarial: mercado estable con rangos predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.rrhh.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.rrhh.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.ejecutivo.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.ejecutivo.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "chile.ejecutivo.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 28%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 10,
+      "raw": "Guerra por talento",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 3,
+      "raw": "Informalidad 27%",
+      "interpretation": "Mercado relativamente estable con amplio pool de candidatos formales"
+    }
+  },
+  "peru.operativo.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Baja competencia salarial: mercado estable con rangos predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.operativo.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.operativo.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 10,
+      "raw": "~58% de demanda",
+      "interpretation": "Máxima concentración: competencia feroz por estos perfiles"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.operaciones.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.operaciones.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.operaciones.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración de demanda en el mercado"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.comercial.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.comercial.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.comercial.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 8,
+      "raw": "~44% de demanda",
+      "interpretation": "Alta concentración: muchas empresas buscan este perfil"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 4,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.tech.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.tech.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 7,
+      "raw": "Dispersión alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.tech.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 6,
+      "raw": "~25% de demanda",
+      "interpretation": "Demanda moderada pero con presión de nearshoring"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 8,
+      "raw": "Alta exposición",
+      "interpretation": "Sector altamente expuesto a contratación internacional: competencia por talento con empresas globales"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.marketing.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.marketing.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.marketing.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 5,
+      "raw": "~20% de demanda",
+      "interpretation": "Concentración media de demanda"
+    },
+    "v3": {
+      "score": 6,
+      "raw": "Dispersión moderada-alta",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 6,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.finanzas.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.finanzas.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.finanzas.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 4,
+      "raw": "~18% de demanda",
+      "interpretation": "Concentración moderada-baja"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva"
+    },
+    "v4": {
+      "score": 3,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.rrhh.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 2,
+      "raw": "Dispersión muy baja",
+      "interpretation": "Baja competencia salarial: mercado estable con rangos predecibles"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.rrhh.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 3,
+      "raw": "Dispersión baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.rrhh.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 3,
+      "raw": "~15% de demanda",
+      "interpretation": "Baja concentración de demanda"
+    },
+    "v3": {
+      "score": 4,
+      "raw": "Dispersión moderada-baja",
+      "interpretation": "Competencia salarial moderada: rangos de mercado estables"
+    },
+    "v4": {
+      "score": 2,
+      "raw": "Baja exposición",
+      "interpretation": "Baja exposición al nearshoring: demanda principalmente local"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.ejecutivo.junior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 5,
+      "raw": "Dispersión moderada",
+      "interpretation": "Competencia salarial significativa: necesita oferta competitiva. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.ejecutivo.mid": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 8,
+      "raw": "Dispersión alta",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  },
+  "peru.ejecutivo.senior": {
+    "v1": {
+      "score": 5,
+      "raw": "NEO 22%",
+      "interpretation": "Presión moderada de contratación"
+    },
+    "v2": {
+      "score": 9,
+      "raw": "<5% de demanda",
+      "interpretation": "Baja oferta de candidatos, alta complejidad de búsqueda"
+    },
+    "v3": {
+      "score": 10,
+      "raw": "Guerra por talento",
+      "interpretation": "Alta competencia salarial: empresas compiten agresivamente por estos perfiles. Exposición a salarios en USD (remoto internacional)"
+    },
+    "v4": {
+      "score": 5,
+      "raw": "Exposición media",
+      "interpretation": "Exposición moderada al nearshoring: algunos perfiles compiten con demanda internacional"
+    },
+    "v5": {
+      "score": 8,
+      "raw": "Informalidad 68%",
+      "interpretation": "Mercado frágil: el pool de candidatos formales y verificables es reducido"
+    }
+  }
+}
